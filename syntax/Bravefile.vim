@@ -10,7 +10,7 @@ endif
 
 syn keyword bravefileKeywords image packages run service dist name location tar
 syn keyword bravefileKeywords manager system command args content ip resource ram cpu version resources
-syn keyword bravefileKeywords copy source target action
+syn keyword bravefileKeywords copy source target action ports
 
 " Bash statements
 setlocal iskeyword+=-
