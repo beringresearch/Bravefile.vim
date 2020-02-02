@@ -6,7 +6,7 @@ Vim syntax file for Bering's Bravetools.
 
 ```bash
 $ git clone https://github.com/beringresearch/Bravefile.vim.git
-$ cd Dockerfile.vim
+$ cd Bravefile.vim
 $ make install
 ```
 
