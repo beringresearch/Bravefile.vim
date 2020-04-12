@@ -25,6 +25,7 @@ syn keyword bashStatement wget gzip
 " Strings
 syn region bravefileString start=/"/ skip=/\\"|\\\\/ end=/"/
 syn region bravefileString1 start=/'/ skip=/\\'|\\\\/ end=/'/
+syn region bravefileString2 start=/`/ skip=/\\`|\\\\/ end=/`/
 
 " Emails
 syn region bravefileEmail start=/</ end=/>/ contains=@ oneline
@@ -38,6 +39,7 @@ hi link bravefileComment   Comment
 hi link bravefileKeywords  Keyword
 hi link bravefileString    String
 hi link bravefileString1   String
+hi link bravefileString2   String
 hi link bravefileEmail     Identifier
 hi link bravefileUrl       Identifier
 hi link bashStatement      Function
