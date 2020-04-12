@@ -8,8 +8,8 @@ if exists("b:current_syntax")
   finish
 endif
 
-syn keyword bravefileKeywords image packages run service dist name location tar
-syn keyword bravefileKeywords manager system command args content ip resource ram cpu version resources
+syn keyword bravefileKeywords base image packages run service dist name location tar
+syn keyword bravefileKeywords manager system command args content ip resource ram cpu gpu version resources
 syn keyword bravefileKeywords copy source target action ports
 
 " Bash statements
@@ -31,8 +31,10 @@ syn region bravefileEmail start=/</ end=/>/ contains=@ oneline
 
 " Urls
 syn match bravefileUrl /\(http\|https\|ssh\|hg\|git\)\:\/\/[a-zA-Z0-9\/\-\._]\+/
+syn match bravefileComment "\v//.*$"
 
 " Highlighting
+hi link bravefileComment   Comment
 hi link bravefileKeywords  Keyword
 hi link bravefileString    String
 hi link bravefileString1   String
