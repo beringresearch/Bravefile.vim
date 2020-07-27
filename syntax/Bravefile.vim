@@ -8,7 +8,7 @@ if exists("b:current_syntax")
   finish
 endif
 
-syn keyword bravefileKeywords base image packages run service dist name location tar
+syn keyword bravefileKeywords base image packages run service dist name location tar docker
 syn keyword bravefileKeywords manager system command args content ip resource ram cpu gpu version resources
 syn keyword bravefileKeywords copy source target action ports
 
