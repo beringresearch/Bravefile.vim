@@ -8,7 +8,9 @@ if exists("b:current_syntax")
   finish
 endif
 
+
 syn keyword bravefileKeywords base image packages run service dist name location tar postdeploy
+syn keyword bravefileKeywords base image packages run service dist name location tar docker
 syn keyword bravefileKeywords manager system command args content ip resource ram cpu gpu version resources
 syn keyword bravefileKeywords copy source target action ports docker
 
@@ -16,7 +18,7 @@ syn keyword bravefileKeywords copy source target action ports docker
 setlocal iskeyword+=-
 syn keyword bashStatement alias add-apt-repository adduser apk apt apt-get aptitude apt-key autoconf bundle
 syn keyword bashStatement cd chgrp chmod chown clear complete composer cp curl du echo egrep
-syn keyword bashStatement expr fgrep find gem gnufind gnugrep gpg grep groupadd head less ln
+syn keyword bashStatement expr fgrep find gem git gnufind gnugrep gpg grep groupadd head less ln
 syn keyword bashStatement ls make monit mkdir mv node npm pacman pip pip3 php python python3 R rails rm rmdir rpm ruby
 syn keyword bashStatement sed sleep sort strip tail tailf touch useradd virtualenv yum
 syn keyword bashStatement usermod bash cat a2ensite a2dissite a2enmod a2dismod apache2ctl
