@@ -22,7 +22,7 @@ syn keyword bashStatement expr fgrep find gem git gnufind gnugrep gpg grep group
 syn keyword bashStatement ls make monit mkdir mv node npm pacman pip pip3 php python python3 R rails rm rmdir rpm ruby
 syn keyword bashStatement sed sleep sort strip tail tailf touch useradd virtualenv yum
 syn keyword bashStatement usermod bash cat a2ensite a2dissite a2enmod a2dismod apache2ctl
-syn keyword bashStatement wget gzip zip unzip export 
+syn keyword bashStatement wget gzip zip unzip export sh ash 
 
 " Strings
 syn region bravefileString start=/"/ skip=/\\"|\\\\/ end=/"/
